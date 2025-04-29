@@ -1,4 +1,0 @@
-write=com.yong.controller.WriteAction
-list=com.yong.controller.WriteAction
-update=com.yong.controller.WriteAction
-content=com.yong.controller.WriteAction
