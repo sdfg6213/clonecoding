@@ -1,0 +1,4 @@
+write=com.yong.controller.WriteAction
+list=com.yong.controller.ListAction
+update=com.yong.controller.UpdateAction
+content=com.yong.controller.ContentAction

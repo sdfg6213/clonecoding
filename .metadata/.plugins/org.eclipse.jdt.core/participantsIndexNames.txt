@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\student_java\jsp_study5\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1209326493.index
+\netflix\src\main\java
+C:\student_java\jsp_study5\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3136736535.index
+\myweb2\src\main\java
+C:\student_java\jsp_study5\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\700179850.index
+\myweb\src\main\java
+C:\student_java\jsp_study5\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1292183427.index
+\myweb2\src\main\java

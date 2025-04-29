@@ -1,0 +1,33 @@
+package com.yong.member.action;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.yong.controller.CommandHandler;
+
+import com.yong.member.model.*;
+
+public class MemberLoginAction implements CommandHandler {
+
+	@Override
+	public String process(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String id = req.getParameter("id");
+		String pwd = req.getParameter("pwd");
+		
+		MemberDAO dao = new MemberDAO();
+		int result = dao.loginCheck(id,pwd);
+		String msg = "";
+		switch (result) {
+		case 0 : msg="잘못된 접근입니다"; break;
+		case 1 : msg="ID 혹은 패스워드가 잘못되었습니다.";break;
+		case 2 : msg="ID 혹은 패스워드가 잘못되었습니다.";break;
+		case 3 : msg="로그인 완료!";break;
+		}
+		req.setAttribute("msg", msg);
+		return "member/login.jsp";
+	}
+
+}

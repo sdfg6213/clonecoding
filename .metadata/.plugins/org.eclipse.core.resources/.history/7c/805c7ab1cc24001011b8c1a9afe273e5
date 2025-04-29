@@ -1,0 +1,15 @@
+/list.yong=com.yong.controller.ListAction
+/content.yong=com.yong.controller.ContentAction
+/write.yong=com.yong.controller.WriteAction
+/emp.yong=com.yong.emp.action.EmpAction
+/empAdd.yong=com.yong.emp.action.EmpAddAction
+/empDel.yong=com.yong.emp.action.EmpDelAction
+/empList.yong=com.yong.emp.action.EmpListAction
+/empFind.yong=com.yong.emp.action.EmpFindAction
+/empUpdate.yong=com.yong.emp.action.EmpUpdateAction
+/empUpdateFind.yong=com.yong.emp.action.EmpUpdateFindAction
+/login.yong=com.yong.member.action.MemberAction
+/logout.yong=com.yong.member.action.MemberLogoutAction
+/join.yong=com.yong.member.action.MemberAction
+/memberJoin.yong=com.yong.member.action.MemberJoinAction
+/memberLogin.yong=com.yong.member.action.MemberLoginAction

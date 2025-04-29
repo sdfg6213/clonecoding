@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>메인페이지</h1>
+<ul>
+	<li><a href="emp.yong">사원관리프로그램(mvc버전)</a></li>
+	<c:choose>
+	<c:when test="${empty sessionScope.id }">
+		<li><a href="login.yong">로그인(mvc버전)</a></li>
+		<li><a href="join.yong">회원가입(mvc버전)</a></li>		
+	</c:when>
+	<c:otherwise>
+		<li>${sessionScope.id}님 로그인 중입니다.
+	</c:otherwise>
+	</c:choose>
+	
+</ul>
+</body>
+</html>
